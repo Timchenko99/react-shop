@@ -1,0 +1,11 @@
+.Logo{
+    min-width: 148px;
+    height: 100%;
+    display: flex;
+    font-size: 36px;
+    line-height: 55px;
+    color: rgba(0,0,0,0.61);
+    font-family: 'Carter One', sans-serif;
+    cursor: default;
+    justify-content: center;
+}

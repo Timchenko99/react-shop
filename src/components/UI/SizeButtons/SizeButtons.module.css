@@ -1,0 +1,4 @@
+.SizeButtons{
+    display: flex;
+    flex-direction: row;
+}

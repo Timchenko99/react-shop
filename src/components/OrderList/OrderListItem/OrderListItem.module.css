@@ -1,0 +1,24 @@
+.OrderListItem{
+    list-style: none;
+    padding-bottom: 32px;
+}
+
+.OrderListItemImage{
+    display: inline-block;
+    position: relative;
+    width: 152px;
+    margin-right: 20px;
+
+}
+
+
+.OrderListItemImage img{
+    width: 100%;
+
+}
+
+.OrderListItemDetails{
+    display: inline-block;
+    vertical-align: top;
+
+}

@@ -1,0 +1,33 @@
+.ProductsGridItem{
+    display: flex;
+    flex-direction: column;
+}
+
+.ProductGridItemImage {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.ProductGridItemImage img{
+    height: 100%;
+    width: 100%;
+    transition: transform .5s ease;
+}
+
+.ProductGridItemImage img:hover{
+    transform: scale(1.1);
+}
+
+
+.ProductTitle{
+    cursor: pointer;
+}
+
+.ProductTitle:hover{
+    color: #B1D433;
+}
+
+.ProductPrice{
+    color: #6a7e22;
+}
