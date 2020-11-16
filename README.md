@@ -1,3 +1,3 @@
 #Description
 
-This project is created to learn how to use React/Redux + Firebase setup.
+This project was created to learn how to use React/Redux + Firebase setup.
