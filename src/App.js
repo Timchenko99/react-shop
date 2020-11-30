@@ -33,7 +33,10 @@ class App extends Component {
         <SideDrawer open={this.state.showSideDrawer} close={this.sideDrawerCloseHandler} />
         <Switch>
           <Route path="/" exact>
-            <h1>hello</h1>
+            <React.Fragment>
+            <h1>404 Page not... </h1>
+            <p>ты как сюда залез ЛОВИТЕ ЕГО МУЖИКИ</p>
+            </React.Fragment>
           </Route>
           <Route path="/products/new" >
             <Products/>

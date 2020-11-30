@@ -14,3 +14,8 @@ export const removeProductFromOrders = ( product ) => {
     };
 };
 
+export const removeAllProductsFromOrders = (  ) => {
+    return {
+        type: actionTypes.REMOVE_ALL_ORDER,
+    };
+};

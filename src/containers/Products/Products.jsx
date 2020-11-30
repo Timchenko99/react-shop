@@ -106,13 +106,7 @@ export default class Products extends Component {
                 <div className={classes.ProductsGrid}>
                     <div className={classes.ProductsFiltersWrapper}>
                         <div className={classes.ProductsFilters}>
-                            <div className={classes.ProductsFiltersItem}>Сука</div>
-                            <div className={classes.ProductsFiltersItem}>Сука</div>
-                            <div className={classes.ProductsFiltersItem}>Сука</div>
-                            <div className={classes.ProductsFiltersItem}>Сука</div>
-                            <div className={classes.ProductsFiltersItem}>Сука</div>
-                            <div className={classes.ProductsFiltersItem}>Сука</div>
-                            <div className={classes.ProductsFiltersItem}>Сука</div>
+
                         </div>
                     </div>
                     {this.state.loading ? <div className={classes.Spinner}><Spinner/></div>: <ProductsGrid products={this.state.products} />}

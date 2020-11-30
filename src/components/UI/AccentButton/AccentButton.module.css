@@ -1,6 +1,4 @@
 .AccentButton{
-    display: inline-block;
-    width: auto;
     padding: 15px 25px;
     text-transform: uppercase;
     background-color:  #EB8BCA;
@@ -8,6 +6,7 @@
     font-size: 18px;
     font-family: 'Alatsi', sans-serif;
     cursor: pointer;
+    text-align: center;
 }
 
 .AccentButton:hover{

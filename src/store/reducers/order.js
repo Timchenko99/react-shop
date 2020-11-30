@@ -14,10 +14,18 @@ const addOrder = ( state, action ) => {
     return updateObject( state, updatedState );
 };
 
-const removeOrder = (state, action) => {
+// const removeOrder = (state, action) => {
+//     const updatedSt = {
+//         products: state.products.filter(product => product.id !== action.product.id),
+//         totalPrice: state.totalPrice - action.product.price,
+//     }
+//     return updateObject( state, updatedSt );
+// };
+
+const removeAllOrder = (state, action) => {
     const updatedSt = {
-        products: state.products.filter(product => product.id !== action.product.id),
-        totalPrice: state.totalPrice - action.product.price,
+        products: [],
+        totalPrice: state.totalPrice,
     }
     return updateObject( state, updatedSt );
 };
@@ -25,7 +33,8 @@ const removeOrder = (state, action) => {
 const reducer = ( state = initialState, action ) => {
     switch ( action.type ) {
         case actionTypes.ADD_ORDER: return addOrder( state, action );
-        case actionTypes.REMOVE_ORDER: return removeOrder(state, action);
+        // case actionTypes.REMOVE_ORDER: return removeOrder(state, action);
+        case actionTypes.REMOVE_ALL_ORDER: return removeAllOrder(state, action);
         default: return state;
     }
 };

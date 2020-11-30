@@ -13,6 +13,8 @@ export const FETCH_ORDERS_FAIL = 'FETCH_ORDERS_FAIL';
 
 export const ADD_ORDER = 'ADD_ORDER';
 export const REMOVE_ORDER = 'REMOVE_ORDER';
+export const REMOVE_ALL_ORDER = 'REMOVE_ORDER';
+
 
 export const AUTH_START = 'AUTH_START';
 export const AUTH_SUCCESS = 'AUTH_SUCCESS';

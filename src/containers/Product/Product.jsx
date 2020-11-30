@@ -66,7 +66,9 @@ class Product extends Component {
 
                     </div>
 
-                    <AccentButton onClick={ ()=> this.props.onOrderAdded(this.state.product)}>в корзину</AccentButton>
+                    <div className={classes.OrderButton}>
+                        <AccentButton onClick={ ()=> this.props.onOrderAdded(this.state.product)}>в корзину</AccentButton>
+                    </div>
                 </div>
             </article>
         </div>

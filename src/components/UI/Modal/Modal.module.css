@@ -1,0 +1,18 @@
+.Modal{
+    position: fixed;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /* Negative half of height. */
+    margin-left: -350px; 
+    width: 700px;
+    height: 500px;
+    z-index: 200;
+    padding: 32px 24px;
+    background-color: whitesmoke;
+}
+
+.ModalClose{
+    cursor: pointer;
+    width: 200px;
+}
